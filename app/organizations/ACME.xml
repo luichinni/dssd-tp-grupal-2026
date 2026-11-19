@@ -103,7 +103,7 @@
         <metaData name="Facebook"/>
       </metaDatas>
       <enabled>true</enabled>
-      <password encrypted="false">bpm</password>
+      <password encrypted="false">Grupo11!</password>
     </user>
     <user userName="zachary.williamson">
       <firstName>Zachary</firstName>
@@ -552,7 +552,7 @@
       <lastName>Municipal</lastName>
       <personalData/>
       <professionalData/>
-      <password encrypted="false">123</password>
+      <password encrypted="false">Grupo11!</password>
       <customUserInfoValues/>
     </user>
     <user userName="ccr.coordinador">
@@ -560,7 +560,7 @@
       <lastName>Regional</lastName>
       <personalData/>
       <professionalData/>
-      <password encrypted="false">123</password>
+      <password encrypted="false">Grupo11!</password>
       <customUserInfoValues/>
     </user>
     <user userName="ong.representante">
@@ -568,7 +568,7 @@
       <lastName>ONG</lastName>
       <personalData/>
       <professionalData/>
-      <password encrypted="false">123</password>
+      <password encrypted="false">Grupo11!</password>
       <customUserInfoValues/>
     </user>
     <user userName="sistema.nacional">
@@ -576,7 +576,7 @@
       <lastName>Nacional</lastName>
       <personalData/>
       <professionalData/>
-      <password encrypted="false">123</password>
+      <password encrypted="false">Grupo11!</password>
       <customUserInfoValues/>
     </user>
   </users>

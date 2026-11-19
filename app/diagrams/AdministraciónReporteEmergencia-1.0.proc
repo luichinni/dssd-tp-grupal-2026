@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:connectorconfiguration="http://www.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:decision="http://www.bonitasoft.org/ns/bpm/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/bpm/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/bpm/process">
   <process:MainProcess xmi:id="_BLlIgKfKEfGy3qzqHBLXdA" name="AdministraciónReporteEmergencia" bonitaModelVersion="9">
     <elements xmi:type="process:Pool" xmi:id="_BLlIgafKEfGy3qzqHBLXdA" name="BestRescueSyncEver">
       <elements xmi:type="process:Lane" xmi:id="_actLQKiKEfG4hPqRUpHVVQ" name="Municipio" actor="_9OPSMLYMEfGUN6tI8Xnvug">
@@ -28,7 +28,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_fEsqFqiKEfG4hPqRUpHVVQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_fEtRIKiKEfG4hPqRUpHVVQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_fEsqF6iKEfG4hPqRUpHVVQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_fEtRIqiKEfG4hPqRUpHVVQ">
+          <formMapping xmi:type="process:FormMapping" xmi:id="_fEtRIqiKEfG4hPqRUpHVVQ" type="NONE">
             <targetForm xmi:type="expression:Expression" xmi:id="_QIOHwMJ1EfG7tPE1JeYmPw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_fEtRIaiKEfG4hPqRUpHVVQ">
@@ -68,7 +68,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_aeU51qlkEfG_MYw5XC3bsQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_aeU52KlkEfG_MYw5XC3bsQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_aeU516lkEfG_MYw5XC3bsQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_7M65Er2_EfGBVo3joMiVpg">
+          <formMapping xmi:type="process:FormMapping" xmi:id="_7M65Er2_EfGBVo3joMiVpg" type="NONE">
             <targetForm xmi:type="expression:Expression" xmi:id="_QIOHwcJ1EfG7tPE1JeYmPw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_7M65Eb2_EfGBVo3joMiVpg">
@@ -94,7 +94,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_BLlIjafKEfGy3qzqHBLXdA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_BLlIjqfKEfGy3qzqHBLXdA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_BLlIj6fKEfGy3qzqHBLXdA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_BLmWoKfKEfGy3qzqHBLXdA">
+          <formMapping xmi:type="process:FormMapping" xmi:id="_BLmWoKfKEfGy3qzqHBLXdA" type="NONE">
             <targetForm xmi:type="expression:Expression" xmi:id="_QIOHwsJ1EfG7tPE1JeYmPw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_BLmWoqfKEfGy3qzqHBLXdA"/>
@@ -120,7 +120,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_D90KJafLEfGy3qzqHBLXdA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_D90KJ6fLEfGy3qzqHBLXdA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_D90KJqfLEfGy3qzqHBLXdA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_D90KKafLEfGy3qzqHBLXdA">
+          <formMapping xmi:type="process:FormMapping" xmi:id="_D90KKafLEfGy3qzqHBLXdA" type="NONE">
             <targetForm xmi:type="expression:Expression" xmi:id="_QIOHw8J1EfG7tPE1JeYmPw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_D90KKKfLEfGy3qzqHBLXdA">
@@ -170,7 +170,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_mXy5ta1rEfGqC-wm5ycBJA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_mXy5t61rEfGqC-wm5ycBJA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_mXy5tq1rEfGqC-wm5ycBJA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_3xcGGq1rEfGqC-wm5ycBJA">
+          <formMapping xmi:type="process:FormMapping" xmi:id="_3xcGGq1rEfGqC-wm5ycBJA" type="NONE">
             <targetForm xmi:type="expression:Expression" xmi:id="_QIOHxMJ1EfG7tPE1JeYmPw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_3xcGGa1rEfGqC-wm5ycBJA">
@@ -190,7 +190,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_N_El5q1sEfGqC-wm5ycBJA" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_N_El6K1sEfGqC-wm5ycBJA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_N_El561sEfGqC-wm5ycBJA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_PkRpKa1sEfGqC-wm5ycBJA">
+          <formMapping xmi:type="process:FormMapping" xmi:id="_PkRpKa1sEfGqC-wm5ycBJA" type="NONE">
             <targetForm xmi:type="expression:Expression" xmi:id="_QIOHxcJ1EfG7tPE1JeYmPw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_PkRpKK1sEfGqC-wm5ycBJA"/>
@@ -247,7 +247,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_6SKZ1azQEfGpJZ45v0Tj1g" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_6SKZ16zQEfGpJZ45v0Tj1g" name="actividad" content="actividad" type="MULTIINSTANCE_ITERATOR_TYPE" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_6SKZ1qzQEfGpJZ45v0Tj1g" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_6SKZ2azQEfGpJZ45v0Tj1g">
+          <formMapping xmi:type="process:FormMapping" xmi:id="_6SKZ2azQEfGpJZ45v0Tj1g" type="NONE">
             <targetForm xmi:type="expression:Expression" xmi:id="_QIOHxsJ1EfG7tPE1JeYmPw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_6SKZ2KzQEfGpJZ45v0Tj1g">
@@ -275,7 +275,7 @@
               <referencedElements xmi:type="process:Data" xmi:id="_kRwlwMGtEfGUC8lOWT_Y7g" name="fecha_cierre" dataType="_BLmWvafKEfGy3qzqHBLXdA"/>
             </condition>
           </BoundaryIntermediateEvents>
-          <formMapping xmi:type="process:FormMapping" xmi:id="_MsaWWazLEfGpJZ45v0Tj1g">
+          <formMapping xmi:type="process:FormMapping" xmi:id="_MsaWWazLEfGpJZ45v0Tj1g" type="NONE">
             <targetForm xmi:type="expression:Expression" xmi:id="_QIOHx8J1EfG7tPE1JeYmPw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_MsaWWKzLEfGpJZ45v0Tj1g"/>
@@ -283,218 +283,35 @@
         </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_Fg754KlkEfG_MYw5XC3bsQ" name="Sistema Nacional" actor="_Fg754KlkEfG_MYw5XC3bsQ_actor">
-        <elements xmi:type="process:Task" xmi:id="_JE5I0KlkEfG_MYw5XC3bsQ" name="Validar ofertas" outgoing="_VLWRQK1qEfGqC-wm5ycBJA" incoming="_JE6W8alkEfG_MYw5XC3bsQ" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:ServiceTask" xmi:id="_JE5I0KlkEfG_MYw5XC3bsQ" name="Validar ofertas" outgoing="_VLWRQK1qEfGqC-wm5ycBJA" incoming="_JE6W8alkEfG_MYw5XC3bsQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_JE5v4alkEfG_MYw5XC3bsQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_JE5v4KlkEfG_MYw5XC3bsQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_JE5v4qlkEfG_MYw5XC3bsQ" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_KpXFkOB1EfGCC9z7E85YmQ" name="consultarCoberturaNuevo" definitionId="rest-get" event="ON_FINISH" definitionVersion="1.4.1">
-            <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_KpXFkeB1EfGCC9z7E85YmQ" definitionId="rest-get" version="1.4.1" modelVersion="9">
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFkuB1EfGCC9z7E85YmQ" key="url">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFk-B1EfGCC9z7E85YmQ" name="url()" content="return &quot;http://localhost:5000/api/emergencias/&quot; + id_emergencia + &quot;/evaluar-cobertura&quot;" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="process:Data" xmi:id="_KpXFlOB1EfGCC9z7E85YmQ" name="id_emergencia" dataType="_BLmWvqfKEfGy3qzqHBLXdA"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFleB1EfGCC9z7E85YmQ" key="urlCookies">
-                <expression xmi:type="expression:TableExpression" xmi:id="_KpXFluB1EfGCC9z7E85YmQ"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFl-B1EfGCC9z7E85YmQ" key="urlHeaders">
-                <expression xmi:type="expression:TableExpression" xmi:id="_KpXFmOB1EfGCC9z7E85YmQ">
-                  <expressions xmi:type="expression:ListExpression" xmi:id="_KpXFmeB1EfGCC9z7E85YmQ">
-                    <expressions xmi:type="expression:Expression" xmi:id="_KpXFmuB1EfGCC9z7E85YmQ" name="secret-key-api" content="secret-key-api"/>
-                    <expressions xmi:type="expression:Expression" xmi:id="_KpXFm-B1EfGCC9z7E85YmQ" name="clave_best_api_ever" content="clave_best_api_ever"/>
-                  </expressions>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFnOB1EfGCC9z7E85YmQ" key="add_bonita_context_headers">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFneB1EfGCC9z7E85YmQ" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFnuB1EfGCC9z7E85YmQ" key="bonita_activity_instance_id_header">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFn-B1EfGCC9z7E85YmQ" name="X-Bonita-Activity-Instance-Id" content="X-Bonita-Activity-Instance-Id" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFoOB1EfGCC9z7E85YmQ" key="bonita_process_instance_id_header">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFoeB1EfGCC9z7E85YmQ" name="X-Bonita-Process-Instance-Id" content="X-Bonita-Process-Instance-Id" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFouB1EfGCC9z7E85YmQ" key="bonita_root_process_instance_id_header">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFo-B1EfGCC9z7E85YmQ" name="X-Bonita-Root-Process-Instance-Id" content="X-Bonita-Root-Process-Instance-Id" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFpOB1EfGCC9z7E85YmQ" key="bonita_process_definition_id_header">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFpeB1EfGCC9z7E85YmQ" name="X-Bonita-Process-Definition-Id" content="X-Bonita-Process-Definition-Id" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFpuB1EfGCC9z7E85YmQ" key="bonita_task_assignee_id_header">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFp-B1EfGCC9z7E85YmQ" name="X-Bonita-Task-Assignee-Id" content="X-Bonita-Task-Assignee-Id" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFqOB1EfGCC9z7E85YmQ" key="do_not_follow_redirect">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFqeB1EfGCC9z7E85YmQ" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFquB1EfGCC9z7E85YmQ" key="ignore_body">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFq-B1EfGCC9z7E85YmQ" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFrOB1EfGCC9z7E85YmQ" key="fail_on_http_4xx">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFreB1EfGCC9z7E85YmQ" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFruB1EfGCC9z7E85YmQ" key="fail_on_http_5xx">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFr-B1EfGCC9z7E85YmQ" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFsOB1EfGCC9z7E85YmQ" key="failure_exception_codes">
-                <expression xmi:type="expression:TableExpression" xmi:id="_KpXFseB1EfGCC9z7E85YmQ"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFsuB1EfGCC9z7E85YmQ" key="retry_on_http_5xx">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFs-B1EfGCC9z7E85YmQ" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFtOB1EfGCC9z7E85YmQ" key="retry_additional_codes">
-                <expression xmi:type="expression:TableExpression" xmi:id="_KpXFteB1EfGCC9z7E85YmQ"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFtuB1EfGCC9z7E85YmQ" key="max_body_content_printed">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFt-B1EfGCC9z7E85YmQ" name="1000" content="1000" returnType="java.lang.Integer" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFuOB1EfGCC9z7E85YmQ" key="sensitive_headers_printed">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFueB1EfGCC9z7E85YmQ" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFuuB1EfGCC9z7E85YmQ" key="TLS">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFu-B1EfGCC9z7E85YmQ" name="true" content="true" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFvOB1EfGCC9z7E85YmQ" key="hostname_verifier">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFveB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFvuB1EfGCC9z7E85YmQ" key="trust_store_file">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFv-B1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFwOB1EfGCC9z7E85YmQ" key="trust_store_password">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFweB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFwuB1EfGCC9z7E85YmQ" key="key_store_file">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFw-B1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFxOB1EfGCC9z7E85YmQ" key="key_store_password">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFxeB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFxuB1EfGCC9z7E85YmQ" key="auth_type">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFx-B1EfGCC9z7E85YmQ" name="NONE" content="NONE" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFyOB1EfGCC9z7E85YmQ" key="auth_username">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFyeB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFyuB1EfGCC9z7E85YmQ" key="auth_password">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFy-B1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFzOB1EfGCC9z7E85YmQ" key="auth_host">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFzeB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXFzuB1EfGCC9z7E85YmQ" key="auth_port">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXFz-B1EfGCC9z7E85YmQ" name="-1" content="-1" returnType="java.lang.Integer" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF0OB1EfGCC9z7E85YmQ" key="auth_realm">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF0eB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF0uB1EfGCC9z7E85YmQ" key="auth_preemptive">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF0-B1EfGCC9z7E85YmQ" name="true" content="true" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF1OB1EfGCC9z7E85YmQ" key="oauth2_token_endpoint">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF1eB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF1uB1EfGCC9z7E85YmQ" key="oauth2_client_id">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF1-B1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF2OB1EfGCC9z7E85YmQ" key="oauth2_client_secret">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF2eB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF2uB1EfGCC9z7E85YmQ" key="oauth2_scope">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF2-B1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF3OB1EfGCC9z7E85YmQ" key="oauth2_audience">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF3eB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF3uB1EfGCC9z7E85YmQ" key="oauth2_token">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF3-B1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF4OB1EfGCC9z7E85YmQ" key="oauth2_code">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF4eB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF4uB1EfGCC9z7E85YmQ" key="oauth2_code_verifier">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF4-B1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF5OB1EfGCC9z7E85YmQ" key="oauth2_redirect_uri">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF5eB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF5uB1EfGCC9z7E85YmQ" key="proxy_protocol">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF5-B1EfGCC9z7E85YmQ" name="HTTP" content="HTTP" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF6OB1EfGCC9z7E85YmQ" key="proxy_host">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF6eB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF6uB1EfGCC9z7E85YmQ" key="proxy_port">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF6-B1EfGCC9z7E85YmQ" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF7OB1EfGCC9z7E85YmQ" key="proxy_username">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF7eB1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF7uB1EfGCC9z7E85YmQ" key="proxy_password">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF7-B1EfGCC9z7E85YmQ" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF8OB1EfGCC9z7E85YmQ" key="automatic_proxy_resolution">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF8eB1EfGCC9z7E85YmQ" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF8uB1EfGCC9z7E85YmQ" key="socket_timeout_ms">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF8-B1EfGCC9z7E85YmQ" name="60000" content="60000" returnType="java.lang.Integer" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF9OB1EfGCC9z7E85YmQ" key="connection_timeout_ms">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF9eB1EfGCC9z7E85YmQ" name="60000" content="60000" returnType="java.lang.Integer" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_KpXF9uB1EfGCC9z7E85YmQ" key="trust_strategy">
-                <expression xmi:type="expression:Expression" xmi:id="_KpXF9-B1EfGCC9z7E85YmQ" name="DEFAULT" content="DEFAULT" returnTypeFixed="true"/>
-              </parameters>
-            </configuration>
-            <outputs xmi:type="expression:Operation" xmi:id="_KpXF-OB1EfGCC9z7E85YmQ">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_KpXF-eB1EfGCC9z7E85YmQ"/>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_KpXF-uB1EfGCC9z7E85YmQ" name="bodyAsString" content="bodyAsString" type="CONNECTOR_OUTPUT_TYPE">
-                <referencedElements xmi:type="definition:Output" xmi:id="_KpXF--B1EfGCC9z7E85YmQ" name="bodyAsString" type="java.lang.String"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_KpXF_OB1EfGCC9z7E85YmQ" type="ASSIGNMENT"/>
-            </outputs>
-            <outputs xmi:type="expression:Operation" xmi:id="_KpXF_eB1EfGCC9z7E85YmQ">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_KpXF_uB1EfGCC9z7E85YmQ"/>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_KpXF_-B1EfGCC9z7E85YmQ" name="bodyAsObject" content="bodyAsObject" type="CONNECTOR_OUTPUT_TYPE" returnType="java.lang.Object">
-                <referencedElements xmi:type="definition:Output" xmi:id="_KpXGAOB1EfGCC9z7E85YmQ" name="bodyAsObject" type="java.lang.Object"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_KpXGAeB1EfGCC9z7E85YmQ" type="ASSIGNMENT"/>
-            </outputs>
-            <outputs xmi:type="expression:Operation" xmi:id="_KpXGAuB1EfGCC9z7E85YmQ">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_KpXGA-B1EfGCC9z7E85YmQ"/>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_KpXGBOB1EfGCC9z7E85YmQ" name="headers" content="headers" type="CONNECTOR_OUTPUT_TYPE" returnType="java.util.Map">
-                <referencedElements xmi:type="definition:Output" xmi:id="_KpXGBeB1EfGCC9z7E85YmQ" name="headers" type="java.util.Map"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_KpXGBuB1EfGCC9z7E85YmQ" type="ASSIGNMENT"/>
-            </outputs>
-            <outputs xmi:type="expression:Operation" xmi:id="_KpXGB-B1EfGCC9z7E85YmQ">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_KpXGCOB1EfGCC9z7E85YmQ"/>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_KpXGCeB1EfGCC9z7E85YmQ" name="status_code" content="status_code" type="CONNECTOR_OUTPUT_TYPE" returnType="java.lang.Integer">
-                <referencedElements xmi:type="definition:Output" xmi:id="_KpXGCuB1EfGCC9z7E85YmQ" name="status_code" type="java.lang.Integer"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_KpXGC-B1EfGCC9z7E85YmQ" type="ASSIGNMENT"/>
-            </outputs>
-            <outputs xmi:type="expression:Operation" xmi:id="_KpXGDOB1EfGCC9z7E85YmQ">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_KpXGDeB1EfGCC9z7E85YmQ"/>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_KpXGDuB1EfGCC9z7E85YmQ" name="status_message" content="status_message" type="CONNECTOR_OUTPUT_TYPE">
-                <referencedElements xmi:type="definition:Output" xmi:id="_KpXGD-B1EfGCC9z7E85YmQ" name="status_message" type="java.lang.String"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_KpXGEOB1EfGCC9z7E85YmQ" type="ASSIGNMENT"/>
-            </outputs>
-            <outputs xmi:type="expression:Operation" xmi:id="_KpXGEeB1EfGCC9z7E85YmQ">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_KpXGEuB1EfGCC9z7E85YmQ" name="todosLotesCubiertos" content="todosLotesCubiertos" type="TYPE_VARIABLE" returnType="java.lang.Boolean">
-                <referencedElements xmi:type="process:Data" xmi:id="_KpXGE-B1EfGCC9z7E85YmQ" name="todosLotesCubiertos" dataType="_BLmWvKfKEfGy3qzqHBLXdA"/>
-              </leftOperand>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_KpXGFOB1EfGCC9z7E85YmQ" name="newScript()" content="import groovy.json.JsonSlurper&#xD;&#xA;&#xD;&#xA;if (status_code != 200) {&#xD;&#xA;    return false&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;def resultado = new JsonSlurper().parseText(bodyAsString)&#xD;&#xA;return resultado.todosLotesCubiertos" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
-                <referencedElements xmi:type="definition:Output" xmi:id="_KpXGFeB1EfGCC9z7E85YmQ" name="status_code" type="java.lang.Integer"/>
-                <referencedElements xmi:type="definition:Output" xmi:id="_KpXGFuB1EfGCC9z7E85YmQ" name="bodyAsString" type="java.lang.String"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_KpXGF-B1EfGCC9z7E85YmQ" type="ASSIGNMENT"/>
-            </outputs>
-          </connectors>
+          <operations xmi:type="expression:Operation" xmi:id="_op_solicitud_validacion_vo">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_left_sol_val_vo" name="solicitud_validacion" content="solicitud_validacion" type="TYPE_VARIABLE">
+              <referencedElements xmi:type="process:Data" xmi:id="_ref_sol_val_vo" name="solicitud_validacion" dataType="_BLmWwafKEfGy3qzqHBLXdA"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_right_sol_val_vo" name="obtenerSolicitudValidacion()" content="def flaskBase = (System.getenv(&quot;FLASK_APP_URL&quot;) ?: &quot;http://localhost:5000&quot;).replaceAll('/+$', '')&#xD;&#xA;def extBase = (System.getenv(&quot;EXTERNAL_API_URL&quot;) ?: &quot;http://localhost:8000&quot;).replaceAll('/+$', '')&#xD;&#xA;def cbKey = System.getenv(&quot;BONITA_CALLBACK_API_KEY&quot;) ?: &quot;clave_best_api_ever&quot;&#xD;&#xA;def callHttpStatus = { String urlStr, String method, String body, Map headers, List&lt;Integer> okCodes ->&#xD;&#xA;    def delays = [2000L, 5000L, 10000L]&#xD;&#xA;    Exception lastErr = null&#xD;&#xA;    for (int attempt = 0; attempt &lt;= delays.size(); attempt++) {&#xD;&#xA;        try {&#xD;&#xA;            def conn = (java.net.HttpURLConnection) new java.net.URL(urlStr).openConnection()&#xD;&#xA;            conn.setRequestMethod(method)&#xD;&#xA;            conn.setConnectTimeout(10000)&#xD;&#xA;            conn.setReadTimeout(15000)&#xD;&#xA;            headers?.each { k, v -> conn.setRequestProperty(k.toString(), v.toString()) }&#xD;&#xA;            if (body != null) {&#xD;&#xA;                conn.setDoOutput(true)&#xD;&#xA;                conn.outputStream.withWriter(&quot;UTF-8&quot;) { it.write(body) }&#xD;&#xA;            }&#xD;&#xA;            int code = conn.responseCode&#xD;&#xA;            def stream = (code >= 400) ? conn.errorStream : conn.inputStream&#xD;&#xA;            String text = stream ? stream.getText(&quot;UTF-8&quot;) : &quot;&quot;&#xD;&#xA;            if (okCodes.contains(code)) {&#xD;&#xA;                return [code: code, text: text]&#xD;&#xA;            }&#xD;&#xA;            lastErr = new RuntimeException(&quot;HTTP &quot; + code + &quot; en &quot; + urlStr + &quot;: &quot; + text)&#xD;&#xA;        } catch (Exception e) {&#xD;&#xA;            lastErr = e&#xD;&#xA;        }&#xD;&#xA;        if (attempt &lt; delays.size()) {&#xD;&#xA;            Thread.sleep(delays[attempt])&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    throw new RuntimeException(&quot;Fallo tras reintentos en &quot; + urlStr + &quot;: &quot; + lastErr?.getMessage(), lastErr)&#xD;&#xA;}&#xD;&#xA;def callHttp = { String urlStr, String method, String body, Map headers ->&#xD;&#xA;    return callHttpStatus(urlStr, method, body, headers, [200, 201, 204]).text&#xD;&#xA;}&#xD;&#xA;return callHttp(&#xD;&#xA;    flaskBase + &quot;/api/emergencias/&quot; + id_emergencia + &quot;/solicitud-validacion&quot;,&#xD;&#xA;    &quot;GET&quot;,&#xD;&#xA;    null,&#xD;&#xA;    [&quot;secret-key-api&quot;: cbKey]&#xD;&#xA;)" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:Data" xmi:id="_ref_id_em_in_sol_script" name="id_emergencia" dataType="_BLmWvqfKEfGy3qzqHBLXdA"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_assign_sol_val_vo" type="ASSIGNMENT"/>
+          </operations>
+          <operations xmi:type="expression:Operation" xmi:id="_op_call_ext_val">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_left_call_ext_val" name="resultado_validacion" content="resultado_validacion" type="TYPE_VARIABLE">
+              <referencedElements xmi:type="process:Data" xmi:id="_ref_call_ext_val" name="resultado_validacion" dataType="_BLmWwafKEfGy3qzqHBLXdA"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_right_call_ext_val" name="validarEnServicioExterno()" content="def flaskBase = (System.getenv(&quot;FLASK_APP_URL&quot;) ?: &quot;http://localhost:5000&quot;).replaceAll('/+$', '')&#xD;&#xA;def extBase = (System.getenv(&quot;EXTERNAL_API_URL&quot;) ?: &quot;http://localhost:8000&quot;).replaceAll('/+$', '')&#xD;&#xA;def cbKey = System.getenv(&quot;BONITA_CALLBACK_API_KEY&quot;) ?: &quot;clave_best_api_ever&quot;&#xD;&#xA;def callHttpStatus = { String urlStr, String method, String body, Map headers, List&lt;Integer> okCodes ->&#xD;&#xA;    def delays = [2000L, 5000L, 10000L]&#xD;&#xA;    Exception lastErr = null&#xD;&#xA;    for (int attempt = 0; attempt &lt;= delays.size(); attempt++) {&#xD;&#xA;        try {&#xD;&#xA;            def conn = (java.net.HttpURLConnection) new java.net.URL(urlStr).openConnection()&#xD;&#xA;            conn.setRequestMethod(method)&#xD;&#xA;            conn.setConnectTimeout(10000)&#xD;&#xA;            conn.setReadTimeout(15000)&#xD;&#xA;            headers?.each { k, v -> conn.setRequestProperty(k.toString(), v.toString()) }&#xD;&#xA;            if (body != null) {&#xD;&#xA;                conn.setDoOutput(true)&#xD;&#xA;                conn.outputStream.withWriter(&quot;UTF-8&quot;) { it.write(body) }&#xD;&#xA;            }&#xD;&#xA;            int code = conn.responseCode&#xD;&#xA;            def stream = (code >= 400) ? conn.errorStream : conn.inputStream&#xD;&#xA;            String text = stream ? stream.getText(&quot;UTF-8&quot;) : &quot;&quot;&#xD;&#xA;            if (okCodes.contains(code)) {&#xD;&#xA;                return [code: code, text: text]&#xD;&#xA;            }&#xD;&#xA;            lastErr = new RuntimeException(&quot;HTTP &quot; + code + &quot; en &quot; + urlStr + &quot;: &quot; + text)&#xD;&#xA;        } catch (Exception e) {&#xD;&#xA;            lastErr = e&#xD;&#xA;        }&#xD;&#xA;        if (attempt &lt; delays.size()) {&#xD;&#xA;            Thread.sleep(delays[attempt])&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    throw new RuntimeException(&quot;Fallo tras reintentos en &quot; + urlStr + &quot;: &quot; + lastErr?.getMessage(), lastErr)&#xD;&#xA;}&#xD;&#xA;def callHttp = { String urlStr, String method, String body, Map headers ->&#xD;&#xA;    return callHttpStatus(urlStr, method, body, headers, [200, 201, 204]).text&#xD;&#xA;}&#xD;&#xA;def solJson = callHttp(&#xD;&#xA;    flaskBase + &quot;/api/emergencias/&quot; + id_emergencia + &quot;/solicitud-validacion&quot;,&#xD;&#xA;    &quot;GET&quot;,&#xD;&#xA;    null,&#xD;&#xA;    [&quot;secret-key-api&quot;: cbKey]&#xD;&#xA;)&#xD;&#xA;def loginPayload = groovy.json.JsonOutput.toJson([email: &quot;operador@emergencias.gob.ar&quot;, password: &quot;PasswordSegura123!&quot;])&#xD;&#xA;def authText = callHttp(&#xD;&#xA;    extBase + &quot;/api/v1/auth/login&quot;,&#xD;&#xA;    &quot;POST&quot;,&#xD;&#xA;    loginPayload,&#xD;&#xA;    [&quot;Content-Type&quot;: &quot;application/json&quot;]&#xD;&#xA;)&#xD;&#xA;def authRes = new groovy.json.JsonSlurper().parseText(authText)&#xD;&#xA;def token = authRes.access_token&#xD;&#xA;if (!token) {&#xD;&#xA;    throw new RuntimeException(&quot;Login en API externa sin access_token&quot;)&#xD;&#xA;}&#xD;&#xA;def resText = callHttp(&#xD;&#xA;    extBase + &quot;/api/v1/ofertas/validar&quot;,&#xD;&#xA;    &quot;POST&quot;,&#xD;&#xA;    solJson,&#xD;&#xA;    [&quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Authorization&quot;: &quot;Bearer &quot; + token]&#xD;&#xA;)&#xD;&#xA;callHttp(&#xD;&#xA;    flaskBase + &quot;/api/emergencias/&quot; + id_emergencia + &quot;/ofertas-validadas&quot;,&#xD;&#xA;    &quot;POST&quot;,&#xD;&#xA;    resText,&#xD;&#xA;    [&quot;Content-Type&quot;: &quot;application/json&quot;, &quot;secret-key-api&quot;: cbKey]&#xD;&#xA;)&#xD;&#xA;return resText" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+              <referencedElements xmi:type="process:Data" xmi:id="_ref_id_em_in_val_script" name="id_emergencia" dataType="_BLmWvqfKEfGy3qzqHBLXdA"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_assign_call_ext_val" type="ASSIGNMENT"/>
+          </operations>
           <operations xmi:type="expression:Operation" xmi:id="_op_todosLotesCubiertos_vo">
             <leftOperand xmi:type="expression:Expression" xmi:id="_left_tlc_vo" name="todosLotesCubiertos" content="todosLotesCubiertos" type="TYPE_VARIABLE" returnType="java.lang.Boolean">
               <referencedElements xmi:type="process:Data" xmi:id="_ref_tlc_vo" name="todosLotesCubiertos" dataType="_BLmWvKfKEfGy3qzqHBLXdA"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_right_tlc_vo" name="todosLotesCubiertos_input" content="todosLotesCubiertos_input" type="TYPE_CONTRACT_INPUT" returnType="java.lang.Boolean"/>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_right_tlc_vo" name="consultarCobertura()" content="def flaskBase = (System.getenv(&quot;FLASK_APP_URL&quot;) ?: &quot;http://localhost:5000&quot;).replaceAll('/+$', '')&#xD;&#xA;def extBase = (System.getenv(&quot;EXTERNAL_API_URL&quot;) ?: &quot;http://localhost:8000&quot;).replaceAll('/+$', '')&#xD;&#xA;def cbKey = System.getenv(&quot;BONITA_CALLBACK_API_KEY&quot;) ?: &quot;clave_best_api_ever&quot;&#xD;&#xA;def callHttpStatus = { String urlStr, String method, String body, Map headers, List&lt;Integer> okCodes ->&#xD;&#xA;    def delays = [2000L, 5000L, 10000L]&#xD;&#xA;    Exception lastErr = null&#xD;&#xA;    for (int attempt = 0; attempt &lt;= delays.size(); attempt++) {&#xD;&#xA;        try {&#xD;&#xA;            def conn = (java.net.HttpURLConnection) new java.net.URL(urlStr).openConnection()&#xD;&#xA;            conn.setRequestMethod(method)&#xD;&#xA;            conn.setConnectTimeout(10000)&#xD;&#xA;            conn.setReadTimeout(15000)&#xD;&#xA;            headers?.each { k, v -> conn.setRequestProperty(k.toString(), v.toString()) }&#xD;&#xA;            if (body != null) {&#xD;&#xA;                conn.setDoOutput(true)&#xD;&#xA;                conn.outputStream.withWriter(&quot;UTF-8&quot;) { it.write(body) }&#xD;&#xA;            }&#xD;&#xA;            int code = conn.responseCode&#xD;&#xA;            def stream = (code >= 400) ? conn.errorStream : conn.inputStream&#xD;&#xA;            String text = stream ? stream.getText(&quot;UTF-8&quot;) : &quot;&quot;&#xD;&#xA;            if (okCodes.contains(code)) {&#xD;&#xA;                return [code: code, text: text]&#xD;&#xA;            }&#xD;&#xA;            lastErr = new RuntimeException(&quot;HTTP &quot; + code + &quot; en &quot; + urlStr + &quot;: &quot; + text)&#xD;&#xA;        } catch (Exception e) {&#xD;&#xA;            lastErr = e&#xD;&#xA;        }&#xD;&#xA;        if (attempt &lt; delays.size()) {&#xD;&#xA;            Thread.sleep(delays[attempt])&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    throw new RuntimeException(&quot;Fallo tras reintentos en &quot; + urlStr + &quot;: &quot; + lastErr?.getMessage(), lastErr)&#xD;&#xA;}&#xD;&#xA;def callHttp = { String urlStr, String method, String body, Map headers ->&#xD;&#xA;    return callHttpStatus(urlStr, method, body, headers, [200, 201, 204]).text&#xD;&#xA;}&#xD;&#xA;def cobText = callHttp(&#xD;&#xA;    flaskBase + &quot;/api/emergencias/&quot; + id_emergencia + &quot;/evaluar-cobertura&quot;,&#xD;&#xA;    &quot;GET&quot;,&#xD;&#xA;    null,&#xD;&#xA;    [&quot;secret-key-api&quot;: cbKey]&#xD;&#xA;)&#xD;&#xA;def resultado = new groovy.json.JsonSlurper().parseText(cobText)&#xD;&#xA;return Boolean.TRUE.equals(resultado.todosLotesCubiertos)" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:Data" xmi:id="_ref_id_em_in_cob_script" name="id_emergencia" dataType="_BLmWvqfKEfGy3qzqHBLXdA"/>
+            </rightOperand>
             <operator xmi:type="expression:Operator" xmi:id="_assign_tlc_vo" type="ASSIGNMENT"/>
           </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_JE5v46lkEfG_MYw5XC3bsQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
@@ -502,14 +319,6 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_JE5v5alkEfG_MYw5XC3bsQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_JE5v56lkEfG_MYw5XC3bsQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_JE5v5qlkEfG_MYw5XC3bsQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <contract xmi:type="process:Contract" xmi:id="_contract_validar_ofertas">
-            <inputs xmi:type="process:ContractInput" xmi:id="_input_tlc_vo" name="todosLotesCubiertos_input" type="BOOLEAN">
-              <mapping xmi:type="process:ContractInputMapping" xmi:id="_map_tlc_vo"/>
-            </inputs>
-            <inputs xmi:type="process:ContractInput" xmi:id="_input_sol_val_vo" name="solicitud_validacion_input">
-              <mapping xmi:type="process:ContractInputMapping" xmi:id="_map_sol_val_vo"/>
-            </inputs>
-          </contract>
         </elements>
         <elements xmi:type="process:ServiceTask" xmi:id="_dvvnQKlkEfG_MYw5XC3bsQ" documentation="- Bloquear recursos de la ONG&#xD;&#xA;- Notificar a la ONG la asignación" name="Registrar  compromiso de recurso" outgoing="_d4wR8KlnEfG_MYw5XC3bsQ" incoming="_dvwOVKlkEfG_MYw5XC3bsQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_dvvnQqlkEfG_MYw5XC3bsQ" name="" content="" returnTypeFixed="true"/>
@@ -519,8 +328,9 @@
             <leftOperand xmi:type="expression:Expression" xmi:id="_left_call_ext_adj" name="resultado_adjudicacion" content="resultado_adjudicacion" type="TYPE_VARIABLE">
               <referencedElements xmi:type="process:Data" xmi:id="_ref_call_ext_adj" name="resultado_adjudicacion" dataType="_BLmWwafKEfGy3qzqHBLXdA"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_right_call_ext_adj" name="adjudicarEnServicioExterno()" content="try {&#xD;&#xA;    def authUrl = new java.net.URL(&quot;http://localhost:8000/api/v1/auth/login&quot;);&#xD;&#xA;    def authConn = (java.net.HttpURLConnection) authUrl.openConnection();&#xD;&#xA;    authConn.setRequestMethod(&quot;POST&quot;);&#xD;&#xA;    authConn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json&quot;);&#xD;&#xA;    authConn.setDoOutput(true);&#xD;&#xA;    def loginPayload = groovy.json.JsonOutput.toJson([email: &quot;operador@emergencias.gob.ar&quot;, password: &quot;PasswordSegura123!&quot;]);&#xD;&#xA;    authConn.outputStream.withWriter(&quot;UTF-8&quot;) { it.write(loginPayload) };&#xD;&#xA;    def authRes = new groovy.json.JsonSlurper().parse(authConn.inputStream);&#xD;&#xA;    def token = authRes.access_token;&#xD;&#xA;&#xD;&#xA;    def adjUrl = new java.net.URL(&quot;http://localhost:8000/api/v1/ofertas/adjudicar&quot;);&#xD;&#xA;    def adjConn = (java.net.HttpURLConnection) adjUrl.openConnection();&#xD;&#xA;    adjConn.setRequestMethod(&quot;POST&quot;);&#xD;&#xA;    adjConn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json&quot;);&#xD;&#xA;    adjConn.setRequestProperty(&quot;Authorization&quot;, &quot;Bearer &quot; + token);&#xD;&#xA;    adjConn.setDoOutput(true);&#xD;&#xA;    adjConn.outputStream.withWriter(&quot;UTF-8&quot;) { it.write(solicitud_adjudicacion) };&#xD;&#xA;    def stream = (adjConn.responseCode >= 400) ? adjConn.errorStream : adjConn.inputStream;&#xD;&#xA;    return stream ? stream.text : &quot;OK&quot;;&#xD;&#xA;} catch (Exception e) {&#xD;&#xA;    return &quot;ERROR: &quot; + e.getMessage();&#xD;&#xA;}" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+            <rightOperand xmi:type="expression:Expression" xmi:id="_right_call_ext_adj" name="adjudicarEnServicioExterno()" content="def flaskBase = (System.getenv(&quot;FLASK_APP_URL&quot;) ?: &quot;http://localhost:5000&quot;).replaceAll('/+$', '')&#xD;&#xA;def extBase = (System.getenv(&quot;EXTERNAL_API_URL&quot;) ?: &quot;http://localhost:8000&quot;).replaceAll('/+$', '')&#xD;&#xA;def cbKey = System.getenv(&quot;BONITA_CALLBACK_API_KEY&quot;) ?: &quot;clave_best_api_ever&quot;&#xD;&#xA;def callHttpStatus = { String urlStr, String method, String body, Map headers, List&lt;Integer> okCodes ->&#xD;&#xA;    def delays = [2000L, 5000L, 10000L]&#xD;&#xA;    Exception lastErr = null&#xD;&#xA;    for (int attempt = 0; attempt &lt;= delays.size(); attempt++) {&#xD;&#xA;        try {&#xD;&#xA;            def conn = (java.net.HttpURLConnection) new java.net.URL(urlStr).openConnection()&#xD;&#xA;            conn.setRequestMethod(method)&#xD;&#xA;            conn.setConnectTimeout(10000)&#xD;&#xA;            conn.setReadTimeout(15000)&#xD;&#xA;            headers?.each { k, v -> conn.setRequestProperty(k.toString(), v.toString()) }&#xD;&#xA;            if (body != null) {&#xD;&#xA;                conn.setDoOutput(true)&#xD;&#xA;                conn.outputStream.withWriter(&quot;UTF-8&quot;) { it.write(body) }&#xD;&#xA;            }&#xD;&#xA;            int code = conn.responseCode&#xD;&#xA;            def stream = (code >= 400) ? conn.errorStream : conn.inputStream&#xD;&#xA;            String text = stream ? stream.getText(&quot;UTF-8&quot;) : &quot;&quot;&#xD;&#xA;            if (okCodes.contains(code)) {&#xD;&#xA;                return [code: code, text: text]&#xD;&#xA;            }&#xD;&#xA;            lastErr = new RuntimeException(&quot;HTTP &quot; + code + &quot; en &quot; + urlStr + &quot;: &quot; + text)&#xD;&#xA;        } catch (Exception e) {&#xD;&#xA;            lastErr = e&#xD;&#xA;        }&#xD;&#xA;        if (attempt &lt; delays.size()) {&#xD;&#xA;            Thread.sleep(delays[attempt])&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    throw new RuntimeException(&quot;Fallo tras reintentos en &quot; + urlStr + &quot;: &quot; + lastErr?.getMessage(), lastErr)&#xD;&#xA;}&#xD;&#xA;def callHttp = { String urlStr, String method, String body, Map headers ->&#xD;&#xA;    return callHttpStatus(urlStr, method, body, headers, [200, 201, 204]).text&#xD;&#xA;}&#xD;&#xA;def loginPayload = groovy.json.JsonOutput.toJson([email: &quot;operador@emergencias.gob.ar&quot;, password: &quot;PasswordSegura123!&quot;])&#xD;&#xA;def authText = callHttp(&#xD;&#xA;    extBase + &quot;/api/v1/auth/login&quot;,&#xD;&#xA;    &quot;POST&quot;,&#xD;&#xA;    loginPayload,&#xD;&#xA;    [&quot;Content-Type&quot;: &quot;application/json&quot;]&#xD;&#xA;)&#xD;&#xA;def token = new groovy.json.JsonSlurper().parseText(authText).access_token&#xD;&#xA;if (!token) {&#xD;&#xA;    throw new RuntimeException(&quot;Login en API externa sin access_token&quot;)&#xD;&#xA;}&#xD;&#xA;def adjRes = callHttpStatus(&#xD;&#xA;    extBase + &quot;/api/v1/ofertas/adjudicar&quot;,&#xD;&#xA;    &quot;POST&quot;,&#xD;&#xA;    solicitud_adjudicacion,&#xD;&#xA;    [&quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Authorization&quot;: &quot;Bearer &quot; + token],&#xD;&#xA;    [200, 409]&#xD;&#xA;)&#xD;&#xA;def bodyJson = adjRes.text ?: &quot;{}&quot;&#xD;&#xA;callHttp(&#xD;&#xA;    flaskBase + &quot;/api/emergencias/&quot; + id_emergencia + &quot;/compromiso-registrado&quot;,&#xD;&#xA;    &quot;POST&quot;,&#xD;&#xA;    bodyJson,&#xD;&#xA;    [&quot;Content-Type&quot;: &quot;application/json&quot;, &quot;secret-key-api&quot;: cbKey]&#xD;&#xA;)&#xD;&#xA;return bodyJson" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
               <referencedElements xmi:type="process:Data" xmi:id="_ref_sol_adj_in_script" name="solicitud_adjudicacion" dataType="_BLmWwafKEfGy3qzqHBLXdA"/>
+              <referencedElements xmi:type="process:Data" xmi:id="_ref_id_em_in_adj_script" name="id_emergencia" dataType="_BLmWvqfKEfGy3qzqHBLXdA"/>
             </rightOperand>
             <operator xmi:type="expression:Operator" xmi:id="_assign_call_ext_adj" type="ASSIGNMENT"/>
           </operations>
@@ -538,7 +348,7 @@
             <leftOperand xmi:type="expression:Expression" xmi:id="_left_call_ext_lib" name="resultado_liberacion" content="resultado_liberacion" type="TYPE_VARIABLE">
               <referencedElements xmi:type="process:Data" xmi:id="_ref_call_ext_lib" name="resultado_liberacion" dataType="_BLmWwafKEfGy3qzqHBLXdA"/>
             </leftOperand>
-            <rightOperand xmi:type="expression:Expression" xmi:id="_right_call_ext_lib" name="liberarEnServicioExterno()" content="try {&#xD;&#xA;    def authUrl = new java.net.URL(&quot;http://localhost:8000/api/v1/auth/login&quot;);&#xD;&#xA;    def authConn = (java.net.HttpURLConnection) authUrl.openConnection();&#xD;&#xA;    authConn.setRequestMethod(&quot;POST&quot;);&#xD;&#xA;    authConn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json&quot;);&#xD;&#xA;    authConn.setDoOutput(true);&#xD;&#xA;    def loginPayload = groovy.json.JsonOutput.toJson([email: &quot;operador@emergencias.gob.ar&quot;, password: &quot;PasswordSegura123!&quot;]);&#xD;&#xA;    authConn.outputStream.withWriter(&quot;UTF-8&quot;) { it.write(loginPayload) };&#xD;&#xA;    def authRes = new groovy.json.JsonSlurper().parse(authConn.inputStream);&#xD;&#xA;    def token = authRes.access_token;&#xD;&#xA;&#xD;&#xA;    def libUrl = new java.net.URL(&quot;http://localhost:8000/api/v1/proyectos/liberar-recursos&quot;);&#xD;&#xA;    def libConn = (java.net.HttpURLConnection) libUrl.openConnection();&#xD;&#xA;    libConn.setRequestMethod(&quot;POST&quot;);&#xD;&#xA;    libConn.setRequestProperty(&quot;Content-Type&quot;, &quot;application/json&quot;);&#xD;&#xA;    libConn.setRequestProperty(&quot;Authorization&quot;, &quot;Bearer &quot; + token);&#xD;&#xA;    libConn.setDoOutput(true);&#xD;&#xA;    def libPayload = groovy.json.JsonOutput.toJson([id_emergencia: id_emergencia, id_ong: id_ong, motivo_cierre: &quot;finalizacion_tareas&quot;, recursos_a_liberar: []]);&#xD;&#xA;    libConn.outputStream.withWriter(&quot;UTF-8&quot;) { it.write(libPayload) };&#xD;&#xA;    def stream = (libConn.responseCode >= 400) ? libConn.errorStream : libConn.inputStream;&#xD;&#xA;    return stream ? stream.text : &quot;OK&quot;;&#xD;&#xA;} catch (Exception e) {&#xD;&#xA;    return &quot;ERROR: &quot; + e.getMessage();&#xD;&#xA;}" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+            <rightOperand xmi:type="expression:Expression" xmi:id="_right_call_ext_lib" name="liberarEnServicioExterno()" content="def flaskBase = (System.getenv(&quot;FLASK_APP_URL&quot;) ?: &quot;http://localhost:5000&quot;).replaceAll('/+$', '')&#xD;&#xA;def extBase = (System.getenv(&quot;EXTERNAL_API_URL&quot;) ?: &quot;http://localhost:8000&quot;).replaceAll('/+$', '')&#xD;&#xA;def cbKey = System.getenv(&quot;BONITA_CALLBACK_API_KEY&quot;) ?: &quot;clave_best_api_ever&quot;&#xD;&#xA;def callHttpStatus = { String urlStr, String method, String body, Map headers, List&lt;Integer> okCodes ->&#xD;&#xA;    def delays = [2000L, 5000L, 10000L]&#xD;&#xA;    Exception lastErr = null&#xD;&#xA;    for (int attempt = 0; attempt &lt;= delays.size(); attempt++) {&#xD;&#xA;        try {&#xD;&#xA;            def conn = (java.net.HttpURLConnection) new java.net.URL(urlStr).openConnection()&#xD;&#xA;            conn.setRequestMethod(method)&#xD;&#xA;            conn.setConnectTimeout(10000)&#xD;&#xA;            conn.setReadTimeout(15000)&#xD;&#xA;            headers?.each { k, v -> conn.setRequestProperty(k.toString(), v.toString()) }&#xD;&#xA;            if (body != null) {&#xD;&#xA;                conn.setDoOutput(true)&#xD;&#xA;                conn.outputStream.withWriter(&quot;UTF-8&quot;) { it.write(body) }&#xD;&#xA;            }&#xD;&#xA;            int code = conn.responseCode&#xD;&#xA;            def stream = (code >= 400) ? conn.errorStream : conn.inputStream&#xD;&#xA;            String text = stream ? stream.getText(&quot;UTF-8&quot;) : &quot;&quot;&#xD;&#xA;            if (okCodes.contains(code)) {&#xD;&#xA;                return [code: code, text: text]&#xD;&#xA;            }&#xD;&#xA;            lastErr = new RuntimeException(&quot;HTTP &quot; + code + &quot; en &quot; + urlStr + &quot;: &quot; + text)&#xD;&#xA;        } catch (Exception e) {&#xD;&#xA;            lastErr = e&#xD;&#xA;        }&#xD;&#xA;        if (attempt &lt; delays.size()) {&#xD;&#xA;            Thread.sleep(delays[attempt])&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;    throw new RuntimeException(&quot;Fallo tras reintentos en &quot; + urlStr + &quot;: &quot; + lastErr?.getMessage(), lastErr)&#xD;&#xA;}&#xD;&#xA;def callHttp = { String urlStr, String method, String body, Map headers ->&#xD;&#xA;    return callHttpStatus(urlStr, method, body, headers, [200, 201, 204]).text&#xD;&#xA;}&#xD;&#xA;def loginPayload = groovy.json.JsonOutput.toJson([email: &quot;operador@emergencias.gob.ar&quot;, password: &quot;PasswordSegura123!&quot;])&#xD;&#xA;def authText = callHttp(&#xD;&#xA;    extBase + &quot;/api/v1/auth/login&quot;,&#xD;&#xA;    &quot;POST&quot;,&#xD;&#xA;    loginPayload,&#xD;&#xA;    [&quot;Content-Type&quot;: &quot;application/json&quot;]&#xD;&#xA;)&#xD;&#xA;def token = new groovy.json.JsonSlurper().parseText(authText).access_token&#xD;&#xA;if (!token) {&#xD;&#xA;    throw new RuntimeException(&quot;Login en API externa sin access_token&quot;)&#xD;&#xA;}&#xD;&#xA;def libPayload = groovy.json.JsonOutput.toJson([id_emergencia: id_emergencia, id_ong: id_ong, motivo_cierre: &quot;finalizacion_tareas&quot;, recursos_a_liberar: []])&#xD;&#xA;def libRes = callHttpStatus(&#xD;&#xA;    extBase + &quot;/api/v1/proyectos/liberar-recursos&quot;,&#xD;&#xA;    &quot;POST&quot;,&#xD;&#xA;    libPayload,&#xD;&#xA;    [&quot;Content-Type&quot;: &quot;application/json&quot;, &quot;Authorization&quot;: &quot;Bearer &quot; + token],&#xD;&#xA;    [200, 404]&#xD;&#xA;)&#xD;&#xA;def bodyJson = libRes.text ?: &quot;{}&quot;&#xD;&#xA;callHttp(&#xD;&#xA;    flaskBase + &quot;/api/emergencias/&quot; + id_emergencia + &quot;/recursos-liberados&quot;,&#xD;&#xA;    &quot;POST&quot;,&#xD;&#xA;    bodyJson,&#xD;&#xA;    [&quot;Content-Type&quot;: &quot;application/json&quot;, &quot;secret-key-api&quot;: cbKey]&#xD;&#xA;)&#xD;&#xA;return bodyJson" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
               <referencedElements xmi:type="process:Data" xmi:id="_ref_id_em_in_lib_script" name="id_emergencia" dataType="_BLmWvqfKEfGy3qzqHBLXdA"/>
               <referencedElements xmi:type="process:Data" xmi:id="_ref_id_ong_in_lib_script" name="id_ong" dataType="_BLmWvqfKEfGy3qzqHBLXdA"/>
             </rightOperand>
@@ -564,6 +374,12 @@
       <data xmi:type="process:Data" xmi:id="_zjBswLhfEfGPBsLyoUQWGw" name="todosLotesCubiertos" dataType="_BLmWvKfKEfGy3qzqHBLXdA">
         <defaultValue xmi:type="expression:Expression" xmi:id="_zjBswbhfEfGPBsLyoUQWGw" name="" content="" returnType="java.lang.Boolean"/>
       </data>
+      <data xmi:type="process:Data" xmi:id="_data_solicitud_validacion" name="solicitud_validacion" dataType="_BLmWwafKEfGy3qzqHBLXdA">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_def_solicitud_validacion" name="" content=""/>
+      </data>
+      <data xmi:type="process:Data" xmi:id="_data_resultado_validacion" name="resultado_validacion" dataType="_BLmWwafKEfGy3qzqHBLXdA">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_def_resultado_validacion" name="" content=""/>
+      </data>
       <data xmi:type="process:Data" xmi:id="_data_solicitud_adjudicacion" name="solicitud_adjudicacion" dataType="_BLmWwafKEfGy3qzqHBLXdA">
         <defaultValue xmi:type="expression:Expression" xmi:id="_def_solicitud_adjudicacion" name="" content=""/>
       </data>
@@ -582,7 +398,7 @@
       <data xmi:type="process:Data" xmi:id="_i7ZnYL3qEfGfoogL6Zms6Q" name="fecha_cierre" dataType="_BLmWvafKEfGy3qzqHBLXdA">
         <defaultValue xmi:type="expression:Expression" xmi:id="_i7ZnYb3qEfGfoogL6Zms6Q" name="Now" content="def calendario = java.util.Calendar.getInstance()&#xD;&#xA;calendario.add(java.util.Calendar.DAY_OF_MONTH, 3)&#xD;&#xA;return calendario.getTime()" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.util.Date"/>
       </data>
-      <formMapping xmi:type="process:FormMapping" xmi:id="_BLmWpKfKEfGy3qzqHBLXdA">
+      <formMapping xmi:type="process:FormMapping" xmi:id="_BLmWpKfKEfGy3qzqHBLXdA" type="NONE">
         <targetForm xmi:type="expression:Expression" xmi:id="_QIOHyMJ1EfG7tPE1JeYmPw" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_BLmWpqfKEfGy3qzqHBLXdA">
@@ -866,8 +682,8 @@
               <children xmi:type="notation:DecorationNode" xmi:id="_0NSgcKlmEfG_MYw5XC3bsQ" type="5017"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NR5aqlmEfG_MYw5XC3bsQ" x="1106" y="30"/>
             </children>
-            <children xmi:type="notation:Shape" xmi:id="_q_WrkOBsEfGCC9z7E85YmQ" type="3005" element="_JE5I0KlkEfG_MYw5XC3bsQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
-              <children xmi:type="notation:DecorationNode" xmi:id="_q_X5sOBsEfGCC9z7E85YmQ" type="5005"/>
+            <children xmi:type="notation:Shape" xmi:id="_q_WrkOBsEfGCC9z7E85YmQ" type="3027" element="_JE5I0KlkEfG_MYw5XC3bsQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+              <children xmi:type="notation:DecorationNode" xmi:id="_q_X5sOBsEfGCC9z7E85YmQ" type="5017"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_q_WrkeBsEfGCC9z7E85YmQ" x="53" y="10"/>
             </children>
           </children>
